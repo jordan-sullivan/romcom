@@ -1,10 +1,23 @@
+// class Cover {
+//   constructor(coverImgSrc, title, descriptor1, descriptor2) {
+//     this.id = Date.now();
+//     this.cover = coverImgSrc;
+//     this.title = title;
+//     this.tagline1 = descriptor1;
+//     this.tagline2 = descriptor2;
+//   }
+// }
+
 var coverImage = document.querySelector(".cover-image");
 var coverTitle = document.querySelector(".cover-title");
 var tagline1 = document.querySelector(".tagline-1");
 var tagline2 = document.querySelector(".tagline-2");
+var currentCover = new Cover();
+console.log(currentCover);
 
 // Add your event listeners here 👇
 window.onload = makeRandomBook();
+//addEventListener(click, Cover);
 
 // Create your event handlers and other functions here 👇
 function getRandomIndex(array) {
@@ -27,5 +40,6 @@ function makeRandomBook() {
 // "sorrows"
 //),
 //];
-//var currentCover;
-//console.log(savedCovers);
+
+//  return makeRandomBook() +  {
+//console.log(curentCover);
